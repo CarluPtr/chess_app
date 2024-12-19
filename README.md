@@ -50,6 +50,6 @@ python manage.py runserver
 Access the API
 The API is exposed via endpoints for comparing players. Example:
 ```
-http://127.0.0.1:8000/compare/<username1>/<username2>/
+http://127.0.0.1:8000/api/<username1>/<username2>/
 ```
 Replace `<username1>` and `<username2>` with the Chess.com usernames of the players you wish to compare.
